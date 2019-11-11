@@ -14,7 +14,7 @@ faas-cli up will build the image for the function, push it to the specified cont
 
 #### Sample function
 
-This function does nothing more than return the OS name.
+This function does nothing more than return the OS information.
 
 ```bash
 $ echo test | faas-cli invoke <project name> --gateway $<your gateway>
