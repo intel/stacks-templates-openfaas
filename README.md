@@ -35,7 +35,7 @@ PRIVACY_POLICY_URL="http://www.intel.com/privacy"
 
 #### Pix2Pix usecase using DLRS template for OpenFaaS
 
-A machine learnig application using this template is available [here](https://github.com/intel/stacks-usecase/tree/master/pix2pix).
+A machine learning application using this template is available [here](https://github.com/intel/stacks-usecase/tree/master/pix2pix).
 
 ## License
 This project is licensed under the MIT license, see LICENSE file for further details.
