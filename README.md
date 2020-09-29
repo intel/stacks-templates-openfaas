@@ -1,7 +1,11 @@
 # DLRS template for OpenFaaS
 
 ## Description
-DLRS template for OpenFaaS deployments.
+Template for OpenFaaS deployments using DLRS.
+
+[DLRS](https://github.com/intel/stacks/tree/master/dlrs) is highly-tuned and built for cloud native environments, the release enables developers to quickly prototype by reducing complexity associated with integrating multiple software components, while still giving users the flexibility to customize their solutions.
+
+DLRS has several flavours, the one used for this template is dlrs-tensorflow-ubuntu:v0.7.0
 
 ## Usage
 
@@ -18,19 +22,6 @@ This function does nothing more than return the OS information.
 
 ```bash
 $ echo test | faas-cli invoke <project name> --gateway $<your gateway>
-
-NAME="Clear Linux OS"
-VERSION=1
-ID=clear-linux-os
-ID_LIKE=clear-linux-os
-VERSION_ID=30650
-PRETTY_NAME="Clear Linux OS"
-ANSI_COLOR="1;35"
-HOME_URL="https://clearlinux.org"
-SUPPORT_URL="https://clearlinux.org"
-BUG_REPORT_URL="mailto:dev@lists.clearlinux.org"
-PRIVACY_POLICY_URL="http://www.intel.com/privacy"
-0
 ```
 
 #### Pix2Pix usecase using DLRS template for OpenFaaS

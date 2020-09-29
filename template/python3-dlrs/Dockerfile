@@ -1,6 +1,6 @@
 FROM openfaas/classic-watchdog:0.15.4 as watchdog
 
-FROM sysstacks/dlrs-tensorflow-clearlinux:v0.6.0
+FROM sysstacks/dlrs-tensorflow-ubuntu:v0.7.0-core
 
 COPY --from=watchdog /fwatchdog /usr/bin/fwatchdog
 RUN chmod +x /usr/bin/fwatchdog
